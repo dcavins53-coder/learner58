@@ -1,7 +1,7 @@
 "user strict";
 
-document.addEventListener('DOMContentLoaded', () => {
-    const list = document.getElementById('Cajun Dishes');
+
+    const list = document.getElementById('cajun-dishes');
     const items = list.getElementsByTagName('li');
     
     
@@ -13,5 +13,4 @@ document.addEventListener('DOMContentLoaded', () => {
             alert(`Ready to head back to ${item.textContent}?`);
         });
     });
-});
 
